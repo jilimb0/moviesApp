@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+
+  color: white;
+}
+
+.movie {
+  text-align: start;
+}
+
+button{}
+
+.wrap-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  input {
+    background: rgba(60, 60, 67, 1);
+    text-indent: 1em;
+
+    color: white;
+
+    border: none;
+    width: 50%;
+    height: 2.4em;
+    justify-self: left;
+    margin-left: 3%;
+
+    border-radius: 30px;
+  }
+
+  input:focus {
+    outline: none;
+  }
+}
+
+.item-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 2em;
+  margin: 5%;
+}
